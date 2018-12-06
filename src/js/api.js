@@ -15,7 +15,7 @@ window.vkAsyncInit = function() {
                     reject(new Error('Не удалось авторизоватся'));
                 }
             }, 2);
-        });
+        }); 
     }
   
     function callApi (method, params) {
