@@ -1,0 +1,277 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+    
+.left-friends-list::-webkit-scrollbar, .right-friends-list::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+.left-friends-list::-webkit-scrollbar-track, .right-friends-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.1);
+}
+ 
+.left-friends-list::-webkit-scrollbar-thumb, .right-friends-list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+h1{
+
+    font-size: 16px;
+    
+    margin-left: 26px;
+    
+    color: #FFF;
+    }
+    body{
+    
+    background-color: #ccc;
+    }
+    .container{
+    
+    width: 100%;
+    
+    margin: 0 auto;
+    }
+    .wrapper{max-width: 800px;min-width: 800px;margin: 0 auto;background-color: #FFF;border-radius: 20px;overflow: hidden;}
+    .header{
+    
+    background-color: #ff8663;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    
+    -webkit-box-pack: justify;
+    
+        -ms-flex-pack: justify;
+    
+            justify-content: space-between;
+    
+    -webkit-box-align: center;
+    
+        -ms-flex-align: center;
+    
+            align-items: center;
+    
+    height: 49px;
+    }
+    .header span{
+    
+    margin-right: 22px;
+    
+    color: #FFF;
+    }
+    .wrapper-friends {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    }
+    .wrapper-friends div {}
+    .left-wrapper {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    
+    -webkit-box-orient: vertical;
+    
+    -webkit-box-direction: normal;
+    
+        -ms-flex-direction: column;
+    
+            flex-direction: column;
+    
+    width: 50%;
+    
+    border-right: 1px solid #ececec;
+    }
+    .inp-wrapper {
+    
+    background-color: #ececec;
+    
+    padding: 11px 23px;
+    }
+    .inp-wrapper input {
+    
+    height: 24px;
+    
+    margin: 0 auto;
+    
+    border: none; /* <-- This thing here */
+    
+    border: solid 1px #fff;
+    
+    border-radius: 27px;
+    
+    padding-left: 15px;
+    
+    width: 329px;
+    }
+    h3 {
+    
+font-size: 13px;
+    
+font-weight: 900;
+    
+padding-left: 37px;
+    }
+    .left-friends-list {
+    
+/* padding-left: 17px; */
+    
+margin-left: 23px;
+    
+margin-right: 27px;
+    
+display: -webkit-box;
+    
+display: -ms-flexbox;
+    
+display: flex;
+    
+-ms-flex-wrap: wrap;
+    
+flex-wrap: wrap;
+    
+height: 357px;
+    
+-webkit-box-align: start;
+    
+    -ms-flex-align: start;
+    
+        align-items: start;
+    
+-ms-flex-line-pack: start;
+    
+    align-content: start;
+    
+overflow: overlay;
+    }
+    .left-friends-list div {
+    
+    }
+    .item-friend {
+    
+    width: 100%;
+    
+    border-top: 1px solid #e8e8e8;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    
+    -webkit-box-align: center;
+    
+        -ms-flex-align: center;
+    
+            align-items: center;
+    
+    -ms-flex-pack: distribute;
+    
+        justify-content: space-around;
+    }
+    .item-friend img{
+    
+border-radius: 67px;
+    
+width: 69px;
+    
+margin: 6px 0;
+    }
+    .item-friend:hover {
+        
+background-color: #f9f9f9;
+        
+cursor: pointer;
+    }
+    .item-friend h4 {}
+    .item-friend span {
+    
+    }
+    .right-wrapper {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    
+    -webkit-box-orient: vertical;
+    
+    -webkit-box-direction: normal;
+    
+        -ms-flex-direction: column;
+    
+            flex-direction: column;
+    
+    width: 50%;
+    }
+    .right-friends-list {
+    
+padding-left: 37px;
+    
+height: 357px;
+    
+height: 357px;
+    
+overflow: overlay;
+    }
+    .right-friends-list div {
+    
+    }
+    .footer {
+    
+background-color: #ececec;
+    
+display: -webkit-box;
+    
+display: -ms-flexbox;
+    
+display: flex;
+    
+-webkit-box-pack: end;
+    
+    -ms-flex-pack: end;
+    
+        justify-content: flex-end;
+    
+padding-right: 23px;
+    
+height: 41px;
+    
+-webkit-box-align: center;
+    
+    -ms-flex-align: center;
+    
+        align-items: center;
+    }
+    .footer input {
+        
+background-color: #ff8663;
+        
+border: none;
+        
+color: #FFF;
+        
+border-radius: 40px;
+        
+height: 30px;
+        
+width: 100px;
+    }

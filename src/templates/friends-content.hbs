@@ -1,0 +1,42 @@
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="header">
+                <h1>Выберите друзей</h1>
+                <span class="close-all">X</span>
+            </div>
+            <div class="wrapper-friends">
+                <div class="left-wrapper">
+                    <div class="inp-wrapper">       
+                        <input class="filter filter-left" type="text" placeholder="Начните вводить имя друга">
+                    </div>
+                    <h3>Ваши друзья</h3>
+                    <div class="left-friends-list">
+                    </div>
+                </div>
+
+                <div class="right-wrapper">
+                    <div class="inp-wrapper">       
+                        <input class="filter filter-right" type="text" placeholder="Название">
+                    </div>
+                    <h3>Друзья в списке</h3>
+                        <div class="right-friends-list">
+                        </div>
+                </div>
+            </div>
+            <div class="footer">
+                <input type="button" value="Сохранить" id="saveBtn">
+                <input type="button" value="Очистить LS" id="cleanLS">
+            </div>
+        </div>
+    </div>
+     <script id="user-template" type="text/x-handlebars-template">
+        {{#each items}}
+            <div class="item-friend">
+                <img class="friendPhoto" src="{{photo_100}}"/>
+                <h4 class="friendName">{{first_name}} {{last_name}}</h4>
+                <span class="addFriend">+</span>
+            </div>
+        {{/each}}
+    </script>
+    <div id="vk_api_transport"></div>
