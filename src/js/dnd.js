@@ -49,6 +49,7 @@ document.addEventListener('click', (e) => {
             leftFriendsList.appendChild(e.target.parentNode);
         } else {
             rightFriendsList.appendChild(e.target.parentNode);
+            e.target.classList.add('rotate');
         }
     } 
 });
