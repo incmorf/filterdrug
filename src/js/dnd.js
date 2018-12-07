@@ -22,6 +22,7 @@ function dnd(zones) {
 
                     if (yP > halfHeigt) {
                         zone.insertBefore(currentDrag.node, e.target.nextElementSibling);
+                      
                     } else {
                         zone.insertBefore(currentDrag.node, e.target);
                     }

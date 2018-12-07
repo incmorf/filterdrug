@@ -7,6 +7,7 @@ saveBtn.addEventListener('click', () => {
   
     localStorage.setItem('dataLeft', leftFriendsList.innerHTML);
     localStorage.setItem('dataRight', rightFriendsList.innerHTML);
+    alert('Data saved');
     
 });
 
@@ -14,4 +15,5 @@ const cleanLS = document.getElementById('cleanLS');
 
 cleanLS.addEventListener('click', () => {
     localStorage.clear();
+    alert('Вы очистили localstorage');
 });
