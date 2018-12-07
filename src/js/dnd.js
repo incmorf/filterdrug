@@ -22,6 +22,7 @@ function dnd(zones) {
 
                     if (yP > halfHeigt) {
                         zone.insertBefore(currentDrag.node, e.target.nextElementSibling);
+                      
                     } else {
                         zone.insertBefore(currentDrag.node, e.target);
                     }
@@ -49,7 +50,6 @@ document.addEventListener('click', (e) => {
             leftFriendsList.appendChild(e.target.parentNode);
         } else {
             rightFriendsList.appendChild(e.target.parentNode);
-            e.target.classList.add('rotate');
         }
     } 
 });

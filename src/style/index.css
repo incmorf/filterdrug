@@ -275,6 +275,7 @@ height: 30px;
         
 width: 100px;
     }
+    
     #cross {
         width: 15px;
         height: 15px;
@@ -305,7 +306,7 @@ width: 100px;
         width: 100%;
      }
      
-     .rotate {
+     .right-friends-list #cross {
         -ms-transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
